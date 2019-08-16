@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4afe476-1330-4a69-80ed-51020c6aaeae" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/p2p-server.js" afterDir="false" />
+    <list default="true" id="d4afe476-1330-4a69-80ed-51020c6aaeae" name="Default" comment="Sockets">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/70886.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/p2p-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/p2p-server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blockchain/block.js" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/block.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/block.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blockchain/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +39,6 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1482" />
-    <option name="y" value="149" />
-    <option name="width" value="1392" />
-    <option name="height" value="853" />
-  </component>
   <component name="ProjectId" id="1PSlaRKihIeayIxDxIMlubDnAeo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -55,7 +48,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -74,23 +67,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.index.test.js">
+  <component name="RunManager" selected="Node.js.dev-test.js">
+    <configuration name="Block.raises the difficulty for quickly mined blocks" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/blockchain/block.test.js" />
+      <test-names>
+        <test-name value="Block" />
+        <test-name value="raises the difficulty for quickly mined blocks" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="block.test.js (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/blockchain/block.test.js" />
-      <method v="2" />
-    </configuration>
-    <configuration name="block.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/block.test.js" />
       <method v="2" />
     </configuration>
     <configuration name="blockchain.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -116,19 +115,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.block.test.js (1)" />
-      <item itemvalue="Jest.block.test.js" />
       <item itemvalue="Jest.blockchain.test.js" />
+      <item itemvalue="Jest.block.test.js (1)" />
       <item itemvalue="Jest.index.test.js" />
+      <item itemvalue="Jest.Block.raises the difficulty for quickly mined blocks" />
       <item itemvalue="Node.js.dev-test.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.index.test.js" />
-        <item itemvalue="Jest.block.test.js (1)" />
-        <item itemvalue="Jest.blockchain.test.js" />
-        <item itemvalue="Jest.block.test.js" />
         <item itemvalue="Node.js.dev-test.js" />
+        <item itemvalue="Jest.block.test.js (1)" />
+        <item itemvalue="Jest.Block.raises the difficulty for quickly mined blocks" />
+        <item itemvalue="Jest.index.test.js" />
+        <item itemvalue="Jest.blockchain.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -147,40 +146,17 @@
       <workItem from="1565849763915" duration="8782000" />
       <workItem from="1565875453074" duration="774000" />
       <workItem from="1565877146111" duration="21000" />
+      <workItem from="1565937260941" duration="11580000" />
     </task>
+    <task id="LOCAL-00001" summary="Sockets">
+      <created>1565880509533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565880509533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="blockchain_test_js - 2019.08.07 at 16h 27m 28s.xml">
-      <configuration name="blockchain.test.js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="blockchain_test_js - 2019.08.07 at 16h 28m 00s.xml">
-      <configuration name="blockchain.test.js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="blockchain_test_js - 2019.08.07 at 16h 28m 14s.xml">
-      <configuration name="blockchain.test.js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="blockchain_test_js - 2019.08.07 at 16h 30m 15s.xml">
-      <configuration name="blockchain.test.js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="block_test_js_(1) - 2019.08.15 at 09h 19m 40s.xml">
-      <configuration name="block.test.js (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="index_test_js - 2019.08.15 at 09h 20m 16s.xml">
-      <configuration name="index.test.js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="index_test_js - 2019.08.15 at 09h 21m 59s.xml">
-      <configuration name="index.test.js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="index_test_js - 2019.08.15 at 09h 22m 29s.xml">
-      <configuration name="index.test.js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="index_test_js - 2019.08.15 at 09h 24m 27s.xml">
-      <configuration name="index.test.js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="index_test_js - 2019.08.15 at 09h 28m 22s.xml">
-      <configuration name="index.test.js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -197,5 +173,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sockets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sockets" />
   </component>
 </project>

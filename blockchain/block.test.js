@@ -8,6 +8,7 @@ describe("Block", () => {
         data = "bar";
         lastBlock = Block.genesis();
         block = Block.mineBlock(lastBlock, data);
+        console.log(block.toString());
     });
 
 
@@ -15,8 +16,23 @@ describe("Block", () => {
        expect(block.data).toEqual(data);
     });
 
-    it("sets the 'lastHash' tp öatch the hash of the last block", () => {
+    it("sets the 'lastHash' tp match the hash of the last block", () => {
         expect(block.lastHash).toEqual(lastBlock.hash)
+    });
+
+    it("generates a hash that matches the difficulty", () => {
+        expect(block.hash.substring(0,block.difficulty)).toEqual("0".repeat(block.difficulty));
+        console.log(block.toString());
+    });
+
+
+
+    it("lowers the difficulty for slowly mined blocks" , () => {
+        expect(Block.adjustDifficulty(block, block.timestamp+360000)).toEqual(block.difficulty-1);
+    });
+
+    it("raises the difficulty for quickly mined blocks" , () => {
+        expect(Block.adjustDifficulty(block, block.timestamp+1)).toEqual(block.difficulty+1);
     });
 
 });
