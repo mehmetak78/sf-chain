@@ -8,7 +8,6 @@ describe("Block", () => {
         data = "bar";
         lastBlock = Block.genesis();
         block = Block.mineBlock(lastBlock, data);
-        console.log(block.toString());
     });
 
 

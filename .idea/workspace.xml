@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4afe476-1330-4a69-80ed-51020c6aaeae" name="Default" comment="Sockets">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/70886.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+    <list default="true" id="d4afe476-1330-4a69-80ed-51020c6aaeae" name="Default" comment="Proof Of Work Finished">
+      <change afterPath="$PROJECT_DIR$/chain-util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/transaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/transaction.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/p2p-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/p2p-server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blockchain/block.js" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/block.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blockchain/block.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/block.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +28,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBowerSettings">
@@ -67,18 +74,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.dev-test.js">
-    <configuration name="Block.raises the difficulty for quickly mined blocks" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Blockchain.start with genesis block first">
+    <configuration name="Blockchain.start with genesis block first" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/blockchain/block.test.js" />
+      <test-file value="$PROJECT_DIR$/blockchain/index.test.js" />
       <test-names>
-        <test-name value="Block" />
-        <test-name value="raises the difficulty for quickly mined blocks" />
+        <test-name value="Blockchain" />
+        <test-name value="start with genesis block first" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -92,15 +99,6 @@
       <test-file value="$PROJECT_DIR$/blockchain/block.test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="blockchain.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/blockchain.test.js" />
-      <method v="2" />
-    </configuration>
     <configuration name="index.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -111,23 +109,33 @@
       <test-file value="$PROJECT_DIR$/blockchain/index.test.js" />
       <method v="2" />
     </configuration>
+    <configuration name="transaction.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/wallet/transaction.test.js" />
+      <method v="2" />
+    </configuration>
     <configuration name="dev-test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="dev-test.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.blockchain.test.js" />
       <item itemvalue="Jest.block.test.js (1)" />
       <item itemvalue="Jest.index.test.js" />
-      <item itemvalue="Jest.Block.raises the difficulty for quickly mined blocks" />
       <item itemvalue="Node.js.dev-test.js" />
+      <item itemvalue="Jest.transaction.test.js" />
+      <item itemvalue="Jest.Blockchain.start with genesis block first" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.dev-test.js" />
-        <item itemvalue="Jest.block.test.js (1)" />
-        <item itemvalue="Jest.Block.raises the difficulty for quickly mined blocks" />
+        <item itemvalue="Jest.Blockchain.start with genesis block first" />
         <item itemvalue="Jest.index.test.js" />
-        <item itemvalue="Jest.blockchain.test.js" />
+        <item itemvalue="Jest.block.test.js (1)" />
+        <item itemvalue="Jest.transaction.test.js" />
+        <item itemvalue="Node.js.dev-test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +154,7 @@
       <workItem from="1565849763915" duration="8782000" />
       <workItem from="1565875453074" duration="774000" />
       <workItem from="1565877146111" duration="21000" />
-      <workItem from="1565937260941" duration="11580000" />
+      <workItem from="1565937260941" duration="19649000" />
     </task>
     <task id="LOCAL-00001" summary="Sockets">
       <created>1565880509533</created>
@@ -155,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565880509533</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Proof Of Work Finished">
+      <created>1565960002114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565960002115</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +191,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sockets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sockets" />
+    <MESSAGE value="Proof Of Work Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proof Of Work Finished" />
   </component>
 </project>
