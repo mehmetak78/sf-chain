@@ -8,7 +8,7 @@
 
 - To Run:
     Tab 1
-        - npm run dev-test
+        - npm run dev
     Tab 2
         - npm run dev 3002 5002 ws://localhost:5001
     Tab 3
@@ -18,4 +18,15 @@
     - npm run test
 
 
+Sample Scenario:
+- Get the Wallet address of second node
+    http://localhost:3002/public-key
+- Run a transaction to
+    Put the scond node's wallet address as a paramater to transact in node 1
+        http://localhost:3001/transact
+- Mine Transactions
+    http://localhost:3001/mine-transactions
+- Check the wallets' balances
+    http://localhost:3001/wallet-balance
+    http://localhost:3002/wallet-balance
 

@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4afe476-1330-4a69-80ed-51020c6aaeae" name="Default" comment="Proof Of Work Finished">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/miner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/transaction-pool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/transaction-pool.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sf-chain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sf-chain.iml" afterDir="false" />
+    <list default="true" id="d4afe476-1330-4a69-80ed-51020c6aaeae" name="Default" comment="Mine Transactions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/p2p-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/p2p-server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/transaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/transaction.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/transaction.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/transaction-pool.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/transaction-pool.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -82,7 +73,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.transaction-pool.test.js">
+  <component name="RunManager" selected="Jest.index.test.js (1)">
+    <configuration name="Wallet.calculating a balance.calculates the balance for blockchain transactions matching the recipient" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/wallet/index.test.js" />
+      <test-names>
+        <test-name value="Wallet" />
+        <test-name value="calculating a balance" />
+        <test-name value="calculates the balance for blockchain transactions matching the recipient" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="index.test.js (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -103,16 +109,6 @@
       <test-file value="$PROJECT_DIR$/wallet/transaction-pool.test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="transaction.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/wallet/transaction.test.js" />
-      <method v="2" />
-    </configuration>
     <configuration name="dev-test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="dev-test.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -122,17 +118,17 @@
     <list>
       <item itemvalue="Jest.transaction-pool.test.js" />
       <item itemvalue="Jest.index.test.js (1)" />
-      <item itemvalue="Jest.transaction.test.js" />
+      <item itemvalue="Jest.Wallet.calculating a balance.calculates the balance for blockchain transactions matching the recipient" />
       <item itemvalue="Node.js.dev-test.js" />
       <item itemvalue="Node.js.transaction.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.index.test.js (1)" />
+        <item itemvalue="Jest.Wallet.calculating a balance.calculates the balance for blockchain transactions matching the recipient" />
         <item itemvalue="Jest.transaction-pool.test.js" />
         <item itemvalue="Node.js.transaction.js" />
         <item itemvalue="Node.js.dev-test.js" />
-        <item itemvalue="Jest.transaction.test.js" />
-        <item itemvalue="Jest.index.test.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +153,7 @@
       <workItem from="1565875453074" duration="774000" />
       <workItem from="1565877146111" duration="21000" />
       <workItem from="1565937260941" duration="19649000" />
+      <workItem from="1566132305198" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="Sockets">
       <created>1565880509533</created>
@@ -172,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565960002115</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Mine Transactions">
+      <created>1566123918231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566123918231</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +198,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sockets" />
     <MESSAGE value="Proof Of Work Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proof Of Work Finished" />
+    <MESSAGE value="Mine Transactions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mine Transactions" />
   </component>
 </project>
