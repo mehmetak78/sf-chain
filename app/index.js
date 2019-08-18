@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 
 const blockchain = new Blockchain();
 const wallet = new Wallet();
-const transactionPool = new TransactioPool();
+const transactionPool = new TransactioPool(blockchain);
 const p2pServer = new P2PServer(blockchain, transactionPool);
 const miner = new Miner(blockchain, transactionPool, wallet, p2pServer);
 

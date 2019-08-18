@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4afe476-1330-4a69-80ed-51020c6aaeae" name="Default" comment="Mine Transactions">
+    <list default="true" id="d4afe476-1330-4a69-80ed-51020c6aaeae" name="Default" comment="Finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/index.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/transaction-pool.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/transaction-pool.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/transaction-pool.js" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/transaction-pool.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +150,7 @@
       <workItem from="1565875453074" duration="774000" />
       <workItem from="1565877146111" duration="21000" />
       <workItem from="1565937260941" duration="19649000" />
-      <workItem from="1566132305198" duration="598000" />
+      <workItem from="1566132305198" duration="2078000" />
     </task>
     <task id="LOCAL-00001" summary="Sockets">
       <created>1565880509533</created>
@@ -176,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566123918231</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished">
+      <created>1566133310673</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566133310673</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +203,7 @@
     <MESSAGE value="Sockets" />
     <MESSAGE value="Proof Of Work Finished" />
     <MESSAGE value="Mine Transactions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mine Transactions" />
+    <MESSAGE value="Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished" />
   </component>
 </project>

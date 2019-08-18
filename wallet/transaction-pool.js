@@ -1,8 +1,9 @@
 const Transaction = require("./transaction");
 
 class TransactionPool  {
-    constructor() {
+    constructor(blockchain) {
         this.transactions = [];
+        this.blockchain = blockchain;
     }
 
     updateOrAddTransaction(transaction) {
@@ -40,7 +41,22 @@ class TransactionPool  {
     }
 
     clear() {
-        this.transactions = [];
+        //this.transactions = [];
+        this.transactions = this.transactions.filter(transaction => {
+            let foundTransaction = false;
+            this.blockchain.chain.forEach(block => {
+                block.data.forEach(bltr => {
+                    console.log('bltr.id',bltr.id);
+                    console.log('transaction.id',transaction.id);
+                    if (bltr.id ===  transaction.id) {
+                        console.log("Here");
+                        foundTransaction = true;
+                    }
+                })
+            });
+            return foundTransaction ? null : transaction;
+        });
+
     }
 
 }
